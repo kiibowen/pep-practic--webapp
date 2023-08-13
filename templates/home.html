@@ -4,25 +4,51 @@
   <title>PEP Practice</title>
   <style>
   h1 {font-size: 40px;
-      font-family: Roboto;
+      font-family: Arial;
       font-weight: normal;
-      color: rgb(0,0,134)
-      text-align: center;
-      
+      color: rgb(0,0,134);
+      text-align: right;
+     }
+    #banner {
+     height: 360px;
+     width: 100%;
+    object-fit: cover;
      
-  
+    }
+     h2 {font-size: 30px;
+      font-family: Arial;
+      font-weight: normal;
+      color: rgb(0,0,268);
+      text-align: center;
+        }
+     .bodytext {font-size: 20px;
+      font-family: Arial;
+      color: rgb(30,30,30);
+      
+        }
+#container {
+  max-width: 720px;
+  margin: 0 auto;
+}
     
-    
-  }
   </style>
 </head>
+
+
 <body> 
+  <div id= "container">
+    
 <h1>PEP Practice </h1>
-  <img src =  "https://pep-practic-webapp--kiibowen.repl.co/static/banner.jpeg.jpg" height=320> 
+  <img id="banner" src =  "https://pep-practic-webapp--kiibowen.repl.co/static/PEP%20(2).jpg"> 
   <h2> About PEP Practice </h2>
-  <p> PEP Practice is a private tutoring service. We are committed to helping Jamaican students transition from the GSAT examination to PEP, the high order thinking oriented examination which promotes analytical and reasoning skills that are required to survive in today’s developing world.</p>
+  
+  <p class= "bodytext"> PEP Practice is a private tutoring service. We are committed to helping Jamaican students transition from the GSAT examination to PEP, the high order thinking oriented examination which promotes analytical and reasoning skills that are required to survive in today’s developing world.</p>
 <h2> Subjects </h2>
-  <p> TODO - Show subjects <Up></Up>re </p>
+  <p class= "bodytext"> TODO - Show subjects <Up></Up>re </p>
+    <div style="text-align: center;">
   <button> Sign Up </button>
+      <p> Copyright 2023, PEP Practice</p>
+    </div>
+  </div>
 </body>
 </html>
